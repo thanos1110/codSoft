@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Name Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="title" class="nav-li"><a href="#title">Your Name</a></li>
+            <div id="right-nav">
+                <li class="nav-li"><a href="#About">About</a></li>
+                <li class="nav-li"><a href="#Skills">Skills</a></li>
+                <li class="nav-li"><a href="#Projects">Projects</a></li>
+                <li class="nav-li"><a href="#ContactMe">Contact Me</a></li>
+            </div>
+        </ul>
+    </nav>
+    <section id="About">
+        <div class="left">
+            <h2>Hi all i'm [Your Name]</h2>
+            <p>A passionate Full Stack Developer having an experience of building Web and Mobile applications with
+                Javascript / ReactJs / NodeJs / React Native and some other cool libraries and frameworks.</p>
+            <button class="btn" onclick=a()>CONTACT ME</button>
+            <a href="resume.pdf" download><button class="btn">SEE MY RESUME</button></a>
+        </div>
+        <div class="right">
+            <img src="" alt="">
+        </div>
+
+    </section>
+
+    <section id="Skills" class="left">
+        <h2>Skills</h2>
+        <ol>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Python</li>
+        </ol>
+    </section>
+
+    </section>
+    <section id="Projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <img src="card1.jpg" alt="Card 1">
+            <h2 class="card-h2">Portfolio</h2>
+            <p>This is the first card.</p>
+        </div>
+        <div class="card">
+            <img src="card2.jpg" alt="Card 2">
+            <h2 class="card-h2">Landing Page</h2>
+            <p>This is the second card.</p>
+        </div>
+        <div class="card">
+            <img src="card3.jpg" alt="Card 3">
+            <h2 class="card-h2">Calculator</h2>
+            <p>This is the third card.</p>
+        </div>
+    </section>
+    <section id="ContactMe">
+        <h2>Contact Me</h2>
+        <div class="left" id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248870.27605805814!2d77.5938413658088!3d12.933535107958576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1697655452092!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="right">
+            <h5>Name: Your name</h5>
+            <h5>Email: Your Email</h5>
+            <h5>Contact Number: Your Contact Number</h5>
+        </div>
+
+    </section>
+
+</body>
+<script>
+    function a() {
+        console.log("Contact");
+        const contactSection = document.getElementById("ContactMe");
+        contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+</script>
+
+</html>
