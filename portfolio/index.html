@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NP's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/favicon_io/favicon-16x16.png">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <header>
+
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <!--<div class="container">
+            <a class="navbar-brand" href="#">Niranjan Patil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand toggle-text" id="brand-name" href="#">Niranjan Patil</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="#about">ABOUT</a></li>
+                            <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <!-- Dark Mode Switch -->
+                    <div class="theme-switch-wrapper">
+                        <span id="toggle-icon">
+                            <span class="toggle-text" id="change-text">Light Mode</span>
+                            <i class="fas fa-sun"></i>
+                        </span>
+                        <label class="theme-switch">
+                            <input type="checkbox">.
+                            <div class="slider round"></div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Your about section content here -->
+    <section id="about" class="py-5">
+        <div class="container ">
+            <div class="row about">
+                <div class="col-lg-6">
+                    <h1>About Me</h1>
+                    <div class="text-box" id="text-box">
+                        <p>I am a CDAC post-graduate with expertise in webdevelopment, Java SE/EE, Data structures, and
+                            .NET. I thriveon solving
+                            complex problems and am committed todelivering high-quality software solutions. Eager
+                            tocontribute my skills and
+                            knowledge to innovative projects inthe tech industry.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Add an image of yourself here -->
+                    <img src="image/Personal/DSC05700.JPG" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Your portfolio projects here -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h1>Portfolio</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="image/Project1/LoginWithPassword.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">THRESHOLD MULTI-SIGNATURE LOGIN SYSTEM</h5>
+                            <p class="card-text">Developed a Threshold Multisignature Login System usingthe MERN
+                                (MongoDB, Express, React, Node.js) stack toenhance
+                                security and authentication in a web application.This project aimed to provide a robust
+                                and secure loginmechanism by
+                                requiring multiple authorized users to signin, adding an extra layer of protection
+                                against unauthorizedaccess.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="image/Project2/Infinity Scroll.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Infinity Scroll</h5>
+                            <p class="card-text">"Celebrate the beauty of endless scrolling with our JavaScript-powered
+                                website. Seamlessly connected to the Unsplash
+                                API, it offers an immersive experience, continuously unveiling captivating photos that
+                                will keep you scrolling for
+                                hours. Dive into a world of inspiration and visual wonder with each flick of your finger
+                                or click of your mouse. Explore
+                                our limitless gallery today!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img id="image3" src="image/Project3/Lightmode.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Light Mode Dark Mode</h5>
+                            <p class="card-text">"Introducing a dynamic Light-Dark theme toggle created with JavaScript!
+                                This sleek and user-friendly project allows
+                                users to seamlessly switch between light and dark themes with a simple click. Experience
+                                a visually pleasing and
+                                adaptable user interface that caters to your preferences. Enhance your web browsing
+                                experience and enjoy the convenience
+                                of personalized themes at your fingertips."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Your contact information here -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>If you'd like to get in touch, you can reach me via the following methods:</p>
+                    <ul>
+                        <li>Email: nirnjanpatil5434@gmail.com</li>
+                        <li>Phone: +91 7666133386</li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/niranjan-patil-228504228">Your LinkedIn
+                                Profile</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <!-- Add a contact form here if desired -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script> <!-- Create this JS file for custom scripts -->
+</body>
+
+</html>
